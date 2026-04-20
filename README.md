@@ -7,7 +7,7 @@
 1. config.py 수정 [accesskey, secrtekey, 발송 이메일, 수신이메일 등]
   - 발송 이메일 spf 레코드 등록 필요
 
-3. crontab 수정
+2. crontab 수정
 
 ***** python3 /root/sms_noti/main.py >> /root/sms_noti/logs/send_mail_$(date +\%Y\%m\%d).log 2>&1
   - 1분 마다 python 실행, 실행 출력 결과 로그 저장
