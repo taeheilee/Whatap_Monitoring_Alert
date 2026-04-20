@@ -15,6 +15,8 @@
 00*** find /root/sms_noti/logs/ -type f -mtime +15 -exec rm {} \;
   - 15일 이상 된 로그파일은 삭제
 
-20260620 발송 가능한 모니터링 항목
+[20260620 발송 가능한 모니터링 항목]
+
 sms_noti - CPU, Memory, inode, disk, process, port, reboot, network i/o, disk i/o, system load average
+
 url_noti - url 상태코드이상, 접속 지연 
